@@ -42,7 +42,7 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
    sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
    
-   ## Personal research: to enable to go around require deamonize error
+   ## Personal research: to go around require deamonize error
    
    yum install epel-release
    yum install java-11-openjdk-devel
