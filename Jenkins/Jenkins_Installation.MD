@@ -32,6 +32,7 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
    OpenJDK Runtime Environment (build 1.8.0_151-b12)
    OpenJDK 64-Bit Server VM (build 25.151-b12, mixed mode)
    ```
+   source ~/.bash_profile
 
 ## Install Jenkins
  You can install jenkins using the rpm or by setting up the repo. We will set up the repo so that we can update it easily in the future.
@@ -40,6 +41,14 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
    yum -y install wget
    sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   
+   ## Personal research: to enable to go around require deamonize error
+   
+   yum install epel-release
+   yum install java-11-openjdk-devel
+   
+   ##continue with prof
+   
    yum -y install jenkins
    ```
 
