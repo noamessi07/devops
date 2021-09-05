@@ -16,6 +16,7 @@
    chmod +x /opt/apache-tomcat-8.5.35/bin/startup.sh 
    shutdown.sh
    ```
+   ./startup.sh
 
 1. create link files for tomcat startup.sh and shutdown.sh 
    ```sh
